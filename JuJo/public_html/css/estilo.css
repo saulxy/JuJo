@@ -18,6 +18,16 @@ and open the template in the editor.
     position: absolute;
     
 }
+.enemigo{
+    top: 80px;
+    left: 80px;
+    height: 40px;
+    width: 40px;
+    background: green;
+    border-radius: 20px;
+    position: absolute;
+    
+}
 
 #tablero{
     margin-top: 20px;
@@ -26,5 +36,9 @@ and open the template in the editor.
     border: #333 2px solid;
     margin: 0 auto;
     position: relative;
+}
+
+.debug{
+    /*display: none;*/
 }
 
